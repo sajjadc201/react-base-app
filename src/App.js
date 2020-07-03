@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div> 
-      Allah is One
+      Allah is One.
     </div>
   );
 }
