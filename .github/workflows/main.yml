@@ -31,7 +31,7 @@ jobs:
     - name: creating build
       run: npm build
 
-    - name: installing surge
+    - name: Installing surge
       run: npm install --global surge
-    - name: deploying on surge
-      run: surge ./ build https://bootcampc2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+    - name: deploing using surge
+      run: surge ./build bootcampc2.surge.sh --token ${{secrets.SURGE_Token }}
